@@ -8,3 +8,5 @@ In this folder we have two project to test spring cloud config.
 
 - Finally you test config by targetting this endpoint:  curl http://localhost:8080/whoami/Djibril 
 
+- curl localhost:8080/actuator/refresh -d {} -H "Content-Type: application/json" // To refresh config
+
